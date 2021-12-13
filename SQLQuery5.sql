@@ -1,0 +1,4 @@
+﻿INSERT INTO [dbo].[Product] ([ProductId], [ProductName], [Price], [ReorderLevel], [CatId]) VALUES (1, N'Lenovo5000', CAST(25500 AS Decimal(18, 0)), 24, 1)  
+INSERT INTO [dbo].[Product] ([ProductId], [ProductName], [Price], [ReorderLevel], [CatId]) VALUES (2, N'SanDisk Penrive', CAST(250 AS Decimal(18, 0)), 300, 2)  
+INSERT INTO [dbo].[Product] ([ProductId], [ProductName], [Price], [ReorderLevel], [CatId]) VALUES (3, N'sonyharddisk', CAST(3000 AS Decimal(18, 0)), 31, 2)  
+INSERT INTO [dbo].[Product] ([ProductId], [ProductName], [Price], [ReorderLevel], [CatId]) VALUES (4, N'Sony Mouse', CAST(350 AS Decimal(18, 0)), 21, 3)  
